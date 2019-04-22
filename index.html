@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script src="randomVid.js"> </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Philya's Site!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -27,30 +30,38 @@
 
   </head>
 
-  <body class="bg-white">
+  <body class="bg-white coolfont">
     <div class="container d-flex w-100 nosidespace flex-column" style="height:5000em;">
 
-      <header class="bg-light" style="padding-bottom:5px; border-bottom:solid black 1px">
+      <header class="header bg-light">
         <div class="inner">
-          <h5 class="masthead-brand">Home</h5>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">stuff</a>
-            <a class="nav-link" href="#">more stuff</a>
-            <a class="nav-link" href="#">other stuff</a>
+          <nav class="nav nav-masthead justify-content-left">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Science</a>
+            <a class="nav-link" style = "border-right: solid black 1px" href="#">Music</a>
           </nav>
         </div>
       </header>
 
       <div class="d-flex flex-row-reverse" style="height:40em;width:100%">
 
-        <div style="width:40em;">
-          <video autoplay muted loop id="myVideo">
-            <source src="Sunset.mp4" type="video/mp4">
+        <div class="d-flex flex-column-reverse" style="width:36em;">
+          <div class="captionBox text-center">
+            <p> Clips from various projects and aspects of my life. </p>
+          </div>
+
+          <video autoplay muted onended="chooseVid()" id="videoClip">
+            <source id="theVideo" src="clip2.mp4" type="video/mp4">
           </video>
         </div>
 
         <main role="main" class="text-left phil-container">
-          <h1 class="cover-heading" style="font-size:3rem;">Phillip Grabovsky.</h1>
+          <h1 class="cover-heading text-left" style="font-size:4rem;margin-bottom:0;">
+            Phillip Grabovsky.</h1>
+          <p style="padding-left:10px;width:80%"> Hi! I'm Phil. I like to think of myself as an aspiring scientist,
+            developer, and musician. On the right, you can see clips taken from projects, performances,
+            or other aspects of my life. Scroll down for my highlighted stuffs, contact, and resume, or use
+            the top bar to look around! </p>
         </main>
 
       </div>
