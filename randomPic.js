@@ -1,7 +1,7 @@
-var videos = new Array("Clip1.mp4","Clip2.mp4","Clip3.mp4");
-var last = 2;
+var pics = new Array("Pic1.jpg","Pic2.jpg","Pic3.jpg");
+var last = 2; //last element index of above list
 
-function chooseVid() {
+function choosePic() {
   console.log("running!");
   console.log("last: " + last);
   var randomNum = Math.floor(Math.random() * videos.length);
@@ -9,6 +9,5 @@ function chooseVid() {
     randomNum = Math.floor(Math.random() * videos.length);
   }
   console.log("pickedVideoNumber: " + randomNum);
-  document.getElementById("videoClip").src = videos[randomNum];
-  document.getElementById("videoClip").play();
+  document.getElementById("thePic").src = pics[randomNum];
 };

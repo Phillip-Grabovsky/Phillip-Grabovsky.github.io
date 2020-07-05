@@ -19,11 +19,6 @@
         user-select: none;
       }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
     </style>
     <!-- my style sheet-->
     <link href="cover.css" rel="stylesheet">
@@ -33,7 +28,7 @@
   <body class="bg-white coolfont">
     <div class="container d-flex w-100 nosidespace flex-column" style="height:5000em;">
 
-      <header class="header bg-light">
+      <header class="header bg-light" style="border-bottom: solid black 1px">
         <div class="inner">
           <nav class="nav nav-masthead justify-content-left">
             <a class="nav-link active" href="#">Home</a>
@@ -43,35 +38,44 @@
         </div>
       </header>
 
-      <div class="d-flex flex-row-reverse" style="height:40em;width:100%">
+      <!-- essentially set up a table in the next two lines -->
+      <div class="d-flex flex-row" style="height:25em; width:100%">
 
-        <div class="d-flex flex-column-reverse" style="width:36em;">
-          <div class="captionBox text-center">
-            <p> Clips from various projects and aspects of my life. </p>
+        <div class="text-left phil-container">
+          <h1 class="text-left" style="font-size:4rem;margin-bottom:0;padding-left:10px">
+            Phillip Grabovsky.</h1>
+          <p style="padding-left:20px;"> <i> Here is all of my stuff. </i> </p>
+        </div>
+
+        <div class="d-flex flex-column" style="width:150px; height:40em; border: solid black 1px">
+
+          <div class="p-2" style="border: solid black 1px; height:150px">
+            I'm a box
           </div>
-
-          <!-- <img src="me.jpg" alt="Me"> -->
-
-          <video autoplay muted onended="chooseVid()" id="videoClip">
-            <source id="theVideo" src="Clip2.mp4" type="video/mp4">
-          </video>
+          <div class="p-2" style="border: solid black 1px; height:150px">
+            I'm a box
+          </div>
 
         </div>
 
-        <main role="main" class="text-left phil-container">
-          <h1 class="cover-heading text-left" style="font-size:4rem;margin-bottom:0;">
-            Phillip Grabovsky.</h1>
-          <p style="padding-left:10px;width:80%"> Hi! I'm Phil. I like to think of myself as an aspiring scientist,
-            developer, and musician. On the right, you can see clips taken from projects, performances,
-            or other aspects of my life. Scroll down for my highlighted stuffs, contact, and resume, or use
-            the top bar to look around! </p>
-        </main>
+        <div class="d-flex flex-column" style="width:150px; height:40em; border: solid black 1px">
 
+          <div class="p-2" style="border: solid black 1px; height:150px">
+            I'm a box
+          </div>
+          <div class="p-2" style="border: solid black 1px; height:150px">
+            I'm a box
+          </div>
+          <div class="p-2" style="border: solid black 1px; height:150px">
+            I'm a box
+          </div>
+
+        </div>
       </div>
 
       <!-- next screen below the greeting -->
       <div class="bg-dark" style="width:100%;height:500em;">
-        <h1> Hi. </h1>
+        <h1 style="margin-top=10:px"> Hi. </h1>
       </div>
 
     </div>
