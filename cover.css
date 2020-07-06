@@ -124,17 +124,47 @@ body {
    height: 100%;
  }
 
+.big-centered-container{
+  height:15em;
+  width:45em;
+  position:absolute;
+  left: 50%;
+  margin-left: -22.5em;
+  margin-top: 5em;
+}
+
 .phil-container{
   font-family: 'Sorts Mill Goudy', serif;
   padding-top:3em;
   width: 45em;
-  height: 13em;
+  height: 12em;
   background-color: white;
-  position: absolute;
-  left: 50%;
-  margin-left: -22.5em;
-  margin-top: 5em;
+  margin: 0 auto 0 auto;
+  position: relative;
   border: solid black 1px;
+  text-align: center;
+}
+
+.flex-row-centered{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-row-centered > div{
+  position:relative;
+  border: solid black 1px;
+  margin-top: 0.5em;
+  width: 10em;
+  height: 2.75em;
+  background-color: white;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+.flex-row-centered > div > p{
+  padding-top: 10px;
 }
 
  #videoClip {
