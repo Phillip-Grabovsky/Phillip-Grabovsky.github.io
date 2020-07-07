@@ -138,15 +138,12 @@ body {
 
 
 .heading-container{
-  font-family: 'Sorts Mill Goudy', serif;
-  padding-top:1em;
-  width: 30em;
-  height: 5em;
-  background-color: white;
-  margin: 0 auto 0 auto;
-  position: relative;
-  border: solid black 1px;
+  padding-top:0.75em;
+  width: 20em;
+  height: 3.25em;
+  margin: 1em auto 0 auto;
   text-align: center;
+  font-size:1.5rem;
 }
 
 .flex-row-centered{
@@ -179,7 +176,8 @@ body {
   height: 0px;
 }
 
-.white-block{
+.white-box{
+  font-family: 'Sorts Mill Goudy', serif;
   position: relative;
   border: solid black 1px;
   background-color: White;
@@ -199,7 +197,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0.75em 0 0.75em 0;
+  margin: 0.75em auto 0.75em auto;
 }
 
 .featured-image{
@@ -215,4 +213,13 @@ body {
   width: 30em;
   padding: 15px 15px 15px 15px;
   margin-left: 2em;
+}
+
+.black-box{
+  position: relative;
+  font-family: 'Sorts Mill Goudy', serif;
+  background-color: black;
+  border: solid black 1px;
+  text-align: center;
+  color: orange;
 }

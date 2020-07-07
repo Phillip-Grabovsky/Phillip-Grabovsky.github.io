@@ -27,16 +27,6 @@
   <body class="coolfont">
     <div class="container d-flex w-100 nosidespace flex-column">
 
-      <!-- <header class="header bg-light" style="border-bottom: solid black 1px">
-        <div class="inner">
-          <nav class="nav nav-masthead justify-content-left">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Science</a>
-            <a class="nav-link" style = "border-right: solid black 1px" href="#">Music</a>
-          </nav>
-        </div>
-      </header> -->
-
       <img id="thePic"> </img>
       <!--the bgpic, src picked randomly from script -->
 
@@ -57,10 +47,10 @@
       </div>
 
       <!--the column of current project links/paragraphs-->
-      <div style="background-color: DarkSlateGray;">
+      <div style="background-color: DarkSlateGray;border-top:solid black 1px;">
         <!--current projects heading -->
-        <div class="heading-container" style="margin-top:2em">
-          <h1 style="font-size:2rem;"> Current Projects</h1>
+        <div class="heading-container white-box">
+          <h1> Current Projects</h1>
         </div>
 
         <!--Current projects column list -->
@@ -106,9 +96,22 @@
         <script src = blocks.js > </script>
       </div>
 
-      <div style = "background-color: Black;text-align:center;color:orange;">
-        <h1 style="font-size:2rem;margin-top:1.5em;"> Favorite Projects</h1>
-        <p> coming soon. </p>
+      <div style="background-color: Black;" id="thirdScreen">
+        <!-- set up the blocks -->
+        <script src = floatingBlocks.js > </script>
+      </div>
+
+      <div class = "heading-container black-box">
+        <h1> Favorite Projects</h1>
+      </div>
+      <div class = "flex-vertical-list">
+        <div class = "black-box" style="width:50em; height:12em">
+          coming soon.
+        </div>
+        <div class = "black-box" style="width:50em; height:12em">
+        </div>
+        <div class = "black-box" style="width:50em; height:12em">
+        </div>
       </div>
 
     </div>
