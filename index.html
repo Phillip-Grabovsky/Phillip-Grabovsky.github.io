@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script src="randomVid.js"> </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,8 +24,8 @@
 
   </head>
 
-  <body class="bg-white coolfont">
-    <div class="container d-flex w-100 nosidespace flex-column" style="height:100%;">
+  <body class="coolfont">
+    <div class="container d-flex w-100 nosidespace flex-column">
 
       <!-- <header class="header bg-light" style="border-bottom: solid black 1px">
         <div class="inner">
@@ -38,23 +37,82 @@
         </div>
       </header> -->
 
-      <img src="Pics/Pic4.jpg" alt="field on vacation"> </img>
+      <img id="thePic"> </img>
+      <!--the bgpic, src picked randomly from script -->
 
-      <div class="big-centered-container d-flex flex-column">
+      <div class="big-centered-container">
+        <!--phil -->
         <div class="phil-container">
           <h1 style="font-size:4rem;margin-bottom:3px"> Phillip Grabovsky</h1>
           <p style="text-align:center"> <i> Here is all of my stuff. </i> </p>
         </div>
 
-        <div class="flex-row-centered">
+        <!--menu under phillip grabovsky -->
+        <div class="flex-row-centered top-menu">
           <div> <p> Science </p> </div>
           <div> <p> Music </p> </div>
           <div> <p> Projects </p> </div>
           <div> <p> Contact </p> </div>
         </div>
+      </div>
+
+      <!--the column of current project links/paragraphs-->
+      <div style="background-color: DarkSlateGray;">
+        <!--current projects heading -->
+        <div class="heading-container" style="margin-top:2em">
+          <h1 style="font-size:2rem;"> Current Projects</h1>
+        </div>
+
+        <!--Current projects column list -->
+        <div class="flex-vertical-list">
+          <!--row with the pic & description -->
+          <div>
+            <div>
+              <img src = pics/Picture.png class= "featured-image"> </img>
+            </div>
+            <div class="description-box"> <p>
+              This is a description for my first image. It should have a lot of
+              words and at least several sentences. This is a description for my
+              first image. It should have a lot of words and at least several sentences.
+            </p> </div>
+          </div>
+
+          <div>
+            <div>
+              <img src = pics/Red.png class= "featured-image"> </img>
+            </div>
+            <div class="description-box"> <p>
+              This is a description for my first image. It should have a lot of
+              words and at least several sentences. This is a description for my
+              first image. It should have a lot of words and at least several sentences.
+            </p> </div>
+          </div>
+
+          <div>
+            <div>
+              <img src = Pics/Blue.jpg class= "featured-image"> </img>
+            </div>
+            <div class="description-box"> <p>
+              This is a description for my first image. It should have a lot of
+              words and at least several sentences. This is a description for my
+              first image. It should have a lot of words and at least several sentences.
+            </p> </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: Black;" id="secondScreen">
+        <!-- set up the blocks -->
+        <script src = blocks.js > </script>
+      </div>
+
+      <div style = "background-color: Black;text-align:center;color:orange;">
+        <h1 style="font-size:2rem;margin-top:1.5em;"> Favorite Projects</h1>
+        <p> coming soon. </p>
+      </div>
 
     </div>
-
+    <script src="randomPic.js"> </script>
 
     <!-- Keep these scripts at the end of the file: -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -27,8 +27,7 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #fff;
+  background-color: Black;
 }
 
 body {
@@ -103,14 +102,6 @@ body {
  * Cover page
  */
 
- .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
  .nosidespace{
    margin-left: 0;
    margin-right: 0;
@@ -120,8 +111,8 @@ body {
  }
 
  img{
-   width: auto;
-   height: 100%;
+   height: auto;
+   width: 100%
  }
 
 .big-centered-container{
@@ -145,13 +136,30 @@ body {
   text-align: center;
 }
 
+
+.heading-container{
+  font-family: 'Sorts Mill Goudy', serif;
+  padding-top:1em;
+  width: 30em;
+  height: 5em;
+  background-color: white;
+  margin: 0 auto 0 auto;
+  position: relative;
+  border: solid black 1px;
+  text-align: center;
+}
+
 .flex-row-centered{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.flex-row-centered > div{
+.top-menu{
+
+}
+
+.top-menu > div{
   position:relative;
   border: solid black 1px;
   margin-top: 0.5em;
@@ -163,27 +171,48 @@ body {
   text-align: center;
 }
 
-.flex-row-centered > div > p{
+.top-menu > div > p{
   padding-top: 10px;
 }
 
- #videoClip {
-   position: static;
-   height: 36em;
-   border: solid black 1px;
- }
-
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+#secondScreen{
+  height: 0px;
 }
 
-/*
- * Footer
- */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+.white-block{
+  position: relative;
+  border: solid black 1px;
+  background-color: White;
+}
+
+.flex-vertical-list{
+  display: flex;
+  flex-direction: column;
+  width: 60em;
+  margin: 0.75em auto 0 auto;
+  padding-bottom: 200px;
+}
+
+.flex-vertical-list > div{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.75em 0 0.75em 0;
+}
+
+.featured-image{
+  border: solid black 1px;
+  margin-right: 2em;
+  height: 10em;
+  width: 10em;
+}
+
+.description-box{
+  background-color: white;
+  border: solid black 1px;
+  width: 30em;
+  padding: 15px 15px 15px 15px;
+  margin-left: 2em;
 }
