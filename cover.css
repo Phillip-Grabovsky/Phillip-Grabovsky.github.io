@@ -116,19 +116,19 @@ body {
  }
 
 .big-centered-container{
-  height:15em;
-  width:45em;
+  height:12em;
+  width:36em;
   position:absolute;
   left: 50%;
-  margin-left: -22.5em;
-  margin-top: 5em;
+  margin-left: -18em;
+  margin-top: 4em;
 }
 
 .phil-container{
   font-family: 'Sorts Mill Goudy', serif;
-  padding-top:3em;
-  width: 45em;
-  height: 12em;
+  padding-top:2.4em;
+  width: 36em;
+  height: 9.6em;
   background-color: white;
   margin: 0 auto 0 auto;
   position: relative;
@@ -138,12 +138,16 @@ body {
 
 
 .heading-container{
-  padding-top:0.75em;
-  width: 20em;
-  height: 3.25em;
-  margin: 1em auto 0 auto;
+  padding-top:0.6em;
+  width: 16em;
+  height: 2.6em;
+  margin: 0.8em auto 0 auto;
   text-align: center;
-  font-size:1.5rem;
+  font-size: 1.5rem;
+}
+
+.heading-container > h1{
+  font-size: 2rem;
 }
 
 .flex-row-centered{
@@ -164,12 +168,12 @@ body {
   height: 2.75em;
   background-color: white;
   font-family: 'Sorts Mill Goudy', serif;
-  font-size: 17px;
+  font-size: 13.6px;
   text-align: center;
 }
 
 .top-menu > div > p{
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 #secondScreen{
@@ -186,9 +190,9 @@ body {
 .flex-vertical-list{
   display: flex;
   flex-direction: column;
-  width: 60em;
+  width: 48em;
   margin: 0.75em auto 0 auto;
-  padding-bottom: 200px;
+  padding-bottom: 160px;
 }
 
 .flex-vertical-list > div{
@@ -197,22 +201,23 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0.75em auto 0.75em auto;
+  margin: 0.6em auto 0.6em auto;
 }
 
 .featured-image{
   border: solid black 1px;
   margin-right: 2em;
-  height: 10em;
-  width: 10em;
+  height: 8em;
+  width: 8em;
 }
 
 .description-box{
   background-color: white;
   border: solid black 1px;
   width: 30em;
-  padding: 15px 15px 15px 15px;
-  margin-left: 2em;
+  padding: 12px 12px 12px 12px;
+  margin-left: 1.6em;
+  font-size: 0.9rem;
 }
 
 .black-box{

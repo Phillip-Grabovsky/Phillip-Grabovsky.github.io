@@ -1,4 +1,4 @@
-var numberBoxes = 30; //constant: number of boxes that should fit in one width
+var numberBoxes = 37.5; //constant: number of boxes that should fit in one width
 var maxHeight = 3; //max number of boxes stacked
 var width = screen.width;
 var boxWidth = (width / numberBoxes) - 2;
@@ -74,5 +74,9 @@ function restart(){
   randomizeBoxes();
 }
 
+function randomizeBoxesInterval(){
+  setInterval(restart, 500);
+}
 
-randomizeBoxes();
+
+randomizeBoxesInterval();
