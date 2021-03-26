@@ -242,3 +242,29 @@ body {
   text-align: center;
   color: orange;
 }
+
+.playlist-box{
+  margin-bottom:20px;
+  width:100%;
+  font-size:1.2rem;
+}
+
+.playlist-pic{
+  height:8em;
+  width:8em;
+  margin:0.5em;
+  border: solid black 1px
+}
+
+.playlist-textbox{
+  margin-left:10px;
+  width:auto
+}
+
+.playlist-textbox > h3{
+  text-align:center;
+}
+
+.playlist-textbox > p{
+  text-align:left;
+}
