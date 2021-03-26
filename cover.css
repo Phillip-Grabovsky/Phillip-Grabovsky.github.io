@@ -20,6 +20,12 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+/*font*/
+@font-face {
+  font-family: jazzFont;
+  src: url(JazzTextRegular.ttf);
+}
+
 
 /*
  * Base structure
@@ -177,11 +183,19 @@ body {
 }
 
 #secondScreen{
+  position:relative;
+  border-top:solid black 1px;
+  background-image:url(Pics/manuscriptPaper.png);
+  background-size: 100% 70%;
+  padding-top:10px;
+  font-family:jazzFont
+}
+
+#blocks{
   height: 0px;
 }
 
 .white-box{
-  font-family: 'Sorts Mill Goudy', serif;
   position: relative;
   border: solid black 1px;
   background-color: White;

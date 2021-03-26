@@ -84,7 +84,7 @@ function createBox(col, row){
   newBox.id = "box" + divNumber;
 
   //add it as a child, and increment the baseline adjustment
-  document.getElementById("secondScreen").appendChild(newBox);
+  document.getElementById("blocks").appendChild(newBox);
   divNumber++;
 }
 

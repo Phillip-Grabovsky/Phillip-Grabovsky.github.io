@@ -1,4 +1,4 @@
-var pics = new Array("Pics/Pic1.jpg","Pics/Pic2.jpg","Pics/Pic3.jpg","Pics/Pic4.jpg");
+var pics = new Array("Pics/Pic1.jpg","Pics/Pic2.jpg","Pics/Pic3.jpg","Pics/Pic4.jpg","Pics/SkiResortBackground.jpg");
 
 function choosePic() {
   console.log("choosing pic");
